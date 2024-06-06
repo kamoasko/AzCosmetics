@@ -1,5 +1,7 @@
 "use strict";
 
+// link to the 
+
 const contactModal = document.getElementById("contactModal");
 const contactBtn = document.getElementById("contactBtn");
 const body = document.querySelector("body");
