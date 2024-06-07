@@ -708,6 +708,20 @@ progress {
   color: var(--bs-secondary-color);
 }
 
+/* img magnifying glass */
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 50%;
+  height: 40%;
+}
+
 .container,
 .container-fluid,
 .container-wide,
@@ -726,10 +740,10 @@ progress {
 }
 
 @media (min-width: 280px) {
-	.brand_video {
-	  height: 200px;
-	}
+  .brand_video {
+    height: 200px;
   }
+}
 
 @media (min-width: 576px) {
   .container-sm,
@@ -755,8 +769,6 @@ progress {
     justify-content: center;
   }
 }
-
-
 
 @media (min-width: 768px) {
   .container-md,
