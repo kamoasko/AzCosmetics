@@ -1,6 +1,18 @@
 "use strict";
 
-// link to the
+// link to the according page
+
+let navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    const pageUrl = link.href;
+
+    window.location = pageUrl;
+  });
+});
+
+// open contact modal
 
 const contactModal = document.getElementById("contactModal");
 const contactBtn = document.getElementById("contactBtn");
