@@ -2,7 +2,7 @@
 
 // link to the according page
 
-let navLinks = document.querySelectorAll(".nav-link");
+let navLinks = document.querySelectorAll(".pageLinks");
 
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
