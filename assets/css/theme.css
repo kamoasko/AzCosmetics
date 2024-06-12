@@ -3512,7 +3512,7 @@ html[data-bs-theme="dark"] :is(.contact, .brands, .about_me) {
 }
 
 .table-group-divider {
-  border-top: calc($table-border-width * 2) solid currentcolor;
+  border-top: calc( table-border-width * 2) solid currentcolor;
 }
 
 .caption-top {
@@ -4445,7 +4445,7 @@ textarea.form-control-lg {
   > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
     .valid-feedback
   ):not(.invalid-tooltip):not(.invalid-feedback) {
-  margin-left: calc($input-border-width * -1);
+  margin-left: calc( input-border-width * -1);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -5179,7 +5179,7 @@ fieldset:disabled .btn {
   --bs-dropdown-border-radius: 0.1875rem;
   --bs-dropdown-border-width: 0;
   --bs-dropdown-inner-border-radius: calc(
-    $dropdown-border-radius - $dropdown-border-width
+     dropdown-border-radius -  dropdown-border-width
   );
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-divider-margin-y: 0.5rem;
@@ -5546,7 +5546,7 @@ fieldset:disabled .btn {
 
 .btn-group > :not(.btn-check:first-child) + .btn,
 .btn-group > .btn-group:not(:first-child) {
-  margin-left: calc($btn-border-width * -1);
+  margin-left: calc( btn-border-width * -1);
 }
 
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
@@ -5611,7 +5611,7 @@ fieldset:disabled .btn {
 
 .btn-group-vertical > .btn:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
-  margin-top: calc($btn-border-width * -1);
+  margin-top: calc( btn-border-width * -1);
 }
 
 .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
@@ -6754,7 +6754,7 @@ fieldset:disabled .btn {
 }
 
 .page-item:not(:first-child) .page-link {
-  margin-left: calc($pagination-border-width * -1);
+  margin-left: calc( pagination-border-width * -1);
 }
 
 .page-item:first-child .page-link {
@@ -8009,7 +8009,7 @@ fieldset:disabled .btn {
   --bs-popover-border-color: var(--bs-border-color-translucent);
   --bs-popover-border-radius: var(--bs-border-radius-lg);
   --bs-popover-inner-border-radius: calc(
-    $popover-border-radius - $popover-border-width
+     popover-border-radius -  popover-border-width
   );
   --bs-popover-box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), 0.15);
   --bs-popover-header-padding-x: 1rem;
